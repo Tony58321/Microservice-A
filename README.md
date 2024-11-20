@@ -2,8 +2,7 @@
 This microservice provides sound file paths based on a requested sound notification. It is designed to support integration with web applications or other services to allow them to request and recieve data (in this case sound file paths) from the service.
 # Requesting Data
 To request data from this microservice, send a POST request to the "/get_sound" endpoint with a JSON body containing the key "sound_notification" and a valid sound identifier (sound_notification1, 2, or 3) as the value.
-**Example Request:**
-
+#Example Request:
 ```JavaScript
 var selectedSound = document.getElementById('soundSelect').value;  // Get the selected sound option
 
